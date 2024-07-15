@@ -110,7 +110,7 @@ header {
     background-color: var(--iris);
     font-family: inherit;
     font-size: 16px;
-    font-weight: medium;
+    font-weight: 500;
     line-height: calc(24/16);
     letter-spacing: 0.04em;
     cursor: pointer;
@@ -141,8 +141,9 @@ header {
 .section-name {
     font-family: inherit;
     font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 2%;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
 }
@@ -155,12 +156,12 @@ header {
     color: var(--navy-blue);
 }
 
-.list p {
+.list .explanation {
     font-family: inherit;
     font-size: 16px;
     font-weight: regular;
     line-height: calc(24/16);
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--slate);
 }
 
