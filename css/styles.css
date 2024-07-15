@@ -48,10 +48,12 @@ header {
     background-color: var(--white);
 }
 .logo {
-    font-family: raleway, sans-serif;
+    font-family: var(--second-family);
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--iris);
 }
 
@@ -62,9 +64,10 @@ header {
 }
 .header-links {
     font-family: inherit;
-    font-weight: medium;
+    font-weight: 500;
     font-size: medium;
     letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
     line-height: calc(24/16);
 }
@@ -75,12 +78,17 @@ header {
 .header-contact {
     font-family: inherit;
     color: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header-contact:hover,
-.header-contact:active {
+.header-contact:focus {
     color: var(--ocean);
 }
 
+.header-address {
+    font-style: normal;
+}
 
 
 /*main/
@@ -116,8 +124,8 @@ header {
     background-color: var(--white);
 }
 
-.hide-header {
-    /*position: absolute;*/
+/*.hide-header {
+    position: absolute;
     width: 1px;
     height: 1px;
     padding: 0;
@@ -126,7 +134,7 @@ header {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-}
+}*/
 
 .section-name {
     font-family: inherit;
