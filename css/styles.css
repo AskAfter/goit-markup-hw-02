@@ -172,6 +172,9 @@ header {
     line-height: 1.11;
     text-transform: capitalize;
 }
+.team-list {
+    background-color: var(--white);
+}
 
 
 
