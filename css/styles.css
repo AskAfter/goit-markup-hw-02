@@ -168,6 +168,10 @@ header {
 .team-section {
     background-color: var(--cloud);
 }
+.team-section .section-name {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
 
 
 
