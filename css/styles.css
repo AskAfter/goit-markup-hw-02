@@ -167,8 +167,12 @@ header {
     letter-spacing: 0.02em;
 }
 
+/*Fourth section*/
 
-
+.portfolio-name {
+    text-transform: capitalize;
+    line-height: 1.11;
+}
 
 /*Footer*/
 
