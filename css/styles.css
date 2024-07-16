@@ -150,7 +150,8 @@ header {
     font-family: inherit;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
     color: var(--navy-blue);
 }
 
@@ -163,9 +164,11 @@ header {
     color: var(--slate);
 }
 
+/*Third section*/
 .team-section {
     background-color: var(--cloud);
 }
+
 
 
 
@@ -175,7 +178,7 @@ header {
     color: var(--cloud);
 }
 
-footer {
+.footer {
     background-color: var(--navy-blue);
 }
 
@@ -184,6 +187,6 @@ footer {
     font-size: 16px;
     font-weight: regular;
     line-height: calc(24/16);
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--cloud);
 }
